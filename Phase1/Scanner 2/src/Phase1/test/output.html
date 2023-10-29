@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+<style>body {padding: 40px;background-color: #222222}</style>    <meta charset="UTF-8" />
+    <meta/>
+  </head>
+  <body>
+<div><pre><b><p3 style="color:  #4863A0;">1</p3></b><p3 style="color:  #B667F1 ;">class</p3> <p3 style="color:  #FFFFFF ;">Main</p3> <p3 style="color:  #90E0EF ;">{</p3>
+<div><pre><b><p3 style="color:  #4863A0;">2</p3></b>    <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3><p3 style="color:  #90E0EF ;">[</p3><p3 style="color:  #90E0EF ;">]</p3> <p3 style="color:  #FFFFFF ;">items</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">3</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">4</p3></b>    <p3 style="color:  #B667F1 ;">func</p3> <p3 style="color:  #FFFFFF ;">printArray</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #90E0EF ;">)</p3> <p3 style="color:  #B667F1 ;">void</p3> <p3 style="color:  #90E0EF ;">{</p3>
+<div><pre><b><p3 style="color:  #4863A0;">5</p3></b>        <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3> <p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">6</p3></b>        <p3 style="color:  #B667F1 ;">for</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #FFFFFF ;">i</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #FFC300 ;">0</p3> <p3 style="color:  #90E0EF ;">;</p3> <p3 style="color:  #FFFFFF ;">i</p3> <p3 style="color:  #90E0EF ;"><</p3> <p3 style="color:  #FFC300 ;">100</p3> <p3 style="color:  #90E0EF ;">;</p3> <p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">++</p3><p3 style="color:  #90E0EF ;">)</p3>
+<div><pre><b><p3 style="color:  #4863A0;">7</p3></b>            <p3 style="color:  #B667F1 ;">print</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #FFFFFF ;">items</p3><p3 style="color:  #90E0EF ;">[</p3><p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">]</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">8</p3></b>    <p3 style="color:  #90E0EF ;">}</p3>
+<div><pre><b><p3 style="color:  #4863A0;">9</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">10</p3></b>    <p3 style="color:  #B667F1 ;">func</p3> <p3 style="color:  #FFFFFF ;">main</p3><p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #90E0EF ;">)</p3> <p3 style="color:  #B667F1 ;">int</p3><p3 style="color:  #90E0EF ;">{</p3>
+<div><pre><b><p3 style="color:  #4863A0;">11</p3></b>        <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3> <p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">,</p3> <p3 style="color:  #FFFFFF ;">j</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">12</p3></b>        <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3><p3 style="color:  #90E0EF ;">[</p3><p3 style="color:  #90E0EF ;">]</p3> <p3 style="color:  #FFFFFF ;">rawItems</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">13</p3></b>        <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3> <p3 style="color:  #FFFFFF ;">arrayLenInHex</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">14</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">15</p3></b>        <p3 style="color:  #FFFFFF ;">arrayLenInHex</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #FFC300 ;">0x64</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">16</p3></b>        <p3 style="color:  #FFFFFF ;">rawItems</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #B667F1 ;">new</p3> <p3 style="color:  #B667F1 ;">int</p3><p3 style="color:  #90E0EF ;">[</p3><p3 style="color:  #FFFFFF ;">arrayLenInHex</p3><p3 style="color:  #90E0EF ;">]</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">17</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">18</p3></b>        <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3> <p3 style="color:  #FFFFFF ;">dummyscientificNumber</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">19</p3></b>        <p3 style="color:  #FFFFFF ;">dummyScientificNumber</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #FFC300 ;">10.2E+2</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">20</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">21</p3></b>        <p3 style="color:  #B667F1 ;">print</p3><p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #00C897;">"</p3><p3 style="color:  #00C897;">Please enter random numbers.</p3><p3 style="color:  #00C897;">"</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">22</p3></b>        <p3 style="color:  #B667F1 ;">print</p3><p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #00C897;">"</p3><p3 style="color:  #00C897;">Max numbers counter: 100, </p3><em><p3 style="color:  #B8FFF9;">\n</p3></em><p3 style="color:  #00C897;">(Enter </p3><em><p3 style="color:  #B8FFF9;">\"</p3></em><p3 style="color:  #00C897;">-1</p3><em><p3 style="color:  #B8FFF9;">\"</p3></em><p3 style="color:  #00C897;">to end sooner.)</p3><p3 style="color:  #00C897;">"</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">23</p3></b>
+<div><pre><b><p3 style="color:  #4863A0;">24</p3></b>        <p3 style="color:  #B667F1 ;">for</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">=</p3><p3 style="color:  #FFC300 ;">0</p3> <p3 style="color:  #90E0EF ;">;</p3> <p3 style="color:  #FFFFFF ;">i</p3> <p3 style="color:  #90E0EF ;"><</p3> <p3 style="color:  #FFFFFF ;">arrayLenInHex</p3><p3 style="color:  #90E0EF ;">;</p3> <p3 style="color:  #FFFFFF ;">i</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #FFFFFF ;">i</p3> <p3 style="color:  #90E0EF ;">+</p3><p3 style="color:  #FFC300 ;">1</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">{</p3>
+<div><pre><b><p3 style="color:  #4863A0;">25</p3></b>            <p3 style="color:  #B667F1 ;">let</p3> <p3 style="color:  #B667F1 ;">int</p3> <p3 style="color:  #FFFFFF ;">x</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">26</p3></b>            <p3 style="color:  #FFFFFF ;">x</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #B667F1 ;">inputInt</p3><p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">27</p3></b>            <p3 style="color:  #B667F1 ;">if</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #FFFFFF ;">x</p3> <p3 style="color:  #90E0EF ;">==</p3> <p3 style="color:  #90E0EF ;">-</p3><p3 style="color:  #FFC300 ;">1</p3><p3 style="color:  #90E0EF ;">)</p3>
+<div><pre><b><p3 style="color:  #4863A0;">28</p3></b>                <p3 style="color:  #B667F1 ;">break</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">29</p3></b>            <p3 style="color:  #B667F1 ;">else</p3>
+<div><pre><b><p3 style="color:  #4863A0;">30</p3></b>                <p3 style="color:  #FFFFFF ;">rawItems</p3> <p3 style="color:  #90E0EF ;">[</p3><p3 style="color:  #FFFFFF ;">i</p3><p3 style="color:  #90E0EF ;">]</p3> <p3 style="color:  #90E0EF ;">=</p3> <p3 style="color:  #FFFFFF ;">x</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">31</p3></b>        <p3 style="color:  #90E0EF ;">}</p3>
+<div><pre><b><p3 style="color:  #4863A0;">32</p3></b>        <p3 style="color:  #FFFFFF ;">printArray</p3> <p3 style="color:  #90E0EF ;">(</p3><p3 style="color:  #90E0EF ;">)</p3><p3 style="color:  #90E0EF ;">;</p3>
+<div><pre><b><p3 style="color:  #4863A0;">33</p3></b>       <p3 style="color:  #90E0EF ;">}</p3>
+<div><pre><b><p3 style="color:  #4863A0;">34</p3></b>    <p3 style="color:  #90E0EF ;">}</p3>
+<div><pre><b><p3 style="color:  #4863A0;">35</p3></b><p3 style="color:  #90E0EF ;">}</p3></pre></div>
+  </body>
+</html>

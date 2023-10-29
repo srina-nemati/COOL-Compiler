@@ -1,0 +1,31 @@
+class Main {
+      let bool[] items;
+      func printResult(int len) void{
+            let int i;
+            for(i in range(len)){
+                  print("Result is: \n");
+                  print(items[i]);
+
+            }
+      }
+
+      func main() int{
+            
+            let int i;
+            let string[] tests;
+            let string[] outs;
+
+            print("This program checks the outs with test and print results.");
+
+            for(i=0; i < 100 ; i = i + 1){
+            
+                  if(tests[i] == outs[i]){
+                        items[i] = true;
+                  }else{
+                        items[i] = false;
+                  }
+            }
+            printResult();
+      }      
+
+}

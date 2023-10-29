@@ -1,0 +1,16 @@
+public enum Type {
+    String,
+    Comment,
+    ReservedKeywords,
+    Operators,
+    Identifiers,
+    IntegerNumber,
+    RealNumber,
+    Boolean,
+    WhiteSpace,
+    Undefined,
+    SpecialCharacters,
+    REAL_ARRAY,
+    STRING_ARRAY,
+    INT_ARRAY,
+}

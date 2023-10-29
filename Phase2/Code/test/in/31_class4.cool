@@ -1,0 +1,6 @@
+class foo {
+		let int a;
+		func b () void {}
+		let int c;
+}
+class main {}

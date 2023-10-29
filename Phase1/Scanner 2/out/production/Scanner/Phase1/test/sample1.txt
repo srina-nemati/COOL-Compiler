@@ -1,0 +1,25 @@
+identifier iden_tifier iden123_ti_9fier not_an_234234234242423423424234234234234_identifier
+_not_identifier
+
+let void int real bool string
+static class for len loop print
+while break continue if range else
+new func return inputStr inputInt in
+
+0 12345689741 0.12 12. .12 
+9.3e6 9.3e+6 9.3e-6
+9.3E6 9.3E+6 9.3E-6
+
+// comment
+/*
+multi
+line
+comment
+*/
+
++ - * / += -= *= /= ++ -- < > <= >= == != = % & ^ . ! " ; [ ] ( ) { }
+
+"this is a string"
+
+\n \r \t \' \" \\
+"special in spring \n \r \t \' \" \\"
